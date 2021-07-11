@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <script src="https://kit.fontawesome.com/9b44a31609.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="slider.css">
+  <link rel="stylesheet" href="daterangepicker.css">
+
+</head>
+
+<body>
+
+  <div class=" menu-background" id="slider">
+    <figure>
+      <img src="img/slider1.jpg">
+      <img src="img/slider2.jpg">
+      <img src="img/slider3.jpg">
+      <img src="img/slider2.jpg">
+      <img src="img/slider1.jpg">
+    </figure>
+    <div class="jumbotron-fluid py-3 mn">
+      <div class="container-fluid container-f py-3 px-5">
+
+        <header>
+
+
+          <div class="logo">
+            <a href="#">onvaca</a>
+          </div>
+
+          <nav>
+            <div>
+              <a href="#">Property Type</a>
+              <div class="border"></div>
+            </div>
+            <div>
+              <a href="#">Swap</a>
+              <div class="border"></div>
+            </div>
+
+
+
+            <button class="show pl-3">Start your search <span class=" icon mr-2"><i
+                  class="fas fa-search"></i></span></button>
+          </nav>
+
+          <div class="side-menu">
+            <div>
+              <a href="#" id="language" data-toggle="modal" data-target="#exampleModalLong">
+                <i class="fas fa-globe"></i>
+              </a>
+            </div>
+            <div class="currency">
+              <a href="#" data-toggle="modal" data-target="#exampleModalLong"><i class="fas fa-money-bill-wave-alt" id="currency"></i></a>
+            </div>
+            <li class="dropdown ">
+              <a href="#"><i class="fas fa-bars pr-2" id="bar"></i></a>
+              <ul class="dropdown-menu mt-2">
+                <li class="mb-1"><a href="#">Sign up</a></li>
+                <li class="mb-1"><a href="#">Log in</a></li>
+                <li>
+                  <hr>
+                </li>
+                <li class="mb-1"><a href="#">Host your Home</a></li>
+                <li class="mb-1"><a href="#">Host an Experience</a></li>
+                <li class="mb-1"><a href="#">Help</a></li>
+              </ul>
+            </li>
+          </div>
+
+        </header>
+
+        <div class="flex-container second-menu">
+
+          <a href="#" class="flex-cls  border-right " id="location">
+            <div class="py-3 px-4 parent ">
+              <label>Location</label>
+              <div>
+                <input type="text" placeholder="where are you going">
+              </div>
+
+            </div>
+          </a>
+          <div id="picker" name="daterange" class="">
+            <div class="flex-cls border-right">
+              <a class="">
+                <div class=" px-4   py-3 parent">
+                  <label>Check in</label>
+                  <div id="from">Add dates</div>
+                </div>
+              </a>
+            </div>
+            <div class="flex-cls border-right">
+              <a href="#" class="">
+                <div class=" px-4 parent py-3"><label>Check out</label>
+                  <div id="to">Add dates</div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <a href="#" class="flex-cls " id="focus">
+            <div class="px-4  search">
+              <div> <label>Search</label>
+               
+              </div>
+              <div>
+                <span  class="search-icon mr-5"><i class="fas fa-search"></i>
+                </span>
+              </div>
+
+            </div>
+          </a>
+        </div>
+
+        <div class="form-group has-search">
+          <span class="fa fa-search form-control-feedback"></span>
+          <input type="text" class="form-control" placeholder="where are you going">
+        </div>
+
+      </div>
+
+    </div>
+    <div class="container text-center content-slider">
+      <div class="bg-text">
+        <p>
+          It is a long established fact that a reader will be distracted
+        </p>
+        <a href="#" class="slider-button btn">ONVACA</a>
+      </div>
+    </div>
+
+  </div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">ONVACA</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+          standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+          type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+          Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+          of Lorem Ipsum.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+  <!-- carousel start -->
+  <section class="popular-places pt-5 mb-5">
+    <div class="container-fluid image-gallery ">
+      <h1 class="text-center heading-inner">Popular <span>Places</span></h1>
+      <div class="row">
+        <!-- carousel 1 -->
+        <div class="col-6  col-lg-3 col-xl-3 mb-4  ">
+
+          <div id="carousel-1" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner" role="listbox">
+
+              <div class="carousel-item active">
+                <a href="#">
+                  <img class="d-block img-fluid" src="img/paris1.jpg" alt="slide">
+                  <div class="centered">Paris</div>
+                </a>
+               
+              </div>
+
+              <div class="carousel-item">
+                <a href="#">
+                <img class="d-block img-fluid" src="img/d1.jpg" alt="slide">
+                <div class="centered">Dubai</div>
+              </a>
+              </div>
+
+            
+             
+            </div>
+
+          </div>
+
+        </div>
+        <!-- carousel 2 -->
+
+        <div class="col-6  col-lg-3 col-xl-3 mb-4  ">
+
+          <div id="carousel-2" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner" role="listbox">
+
+              <div class="carousel-item active">
+                <a href="#"><img class="d-block img-fluid" src="img/tokyo1.jpg" alt="slide">
+                  <div class="centered">Tokyo</div></a>
+                
+               
+              </div>
+
+              <div class="carousel-item">
+                <a href="#"><img class="d-block img-fluid" src="img/k1.jpg" alt="slide">
+                  <div class="centered">Kuwait</div></a>
+                
+              </div>
+
+              
+
+            </div>
+
+
+          </div>
+
+        </div>
+        <!-- carousel 3 -->
+
+        <div class="col-6  col-lg-3 col-xl-3 mb-4  ">
+
+          <div id="carousel-3" class="carousel slide" data-ride="carousel">
+
+
+            <div class="carousel-inner" role="listbox">
+
+              <div class="carousel-item active">
+                <a href="#"><img class="d-block img-fluid" src="img/b1.jpg" alt="slide">
+                  <div class="centered">Beijing</div></a>
+                
+              </div>
+
+              <div class="carousel-item">
+                <a href="#"><img class="d-block img-fluid" src="img/r1.jpg" alt="slide">
+                  <div class="centered">Russia</div></a>
+                
+              </div>
+             
+
+
+            </div>
+
+
+
+          </div>
+
+        </div>
+        <!-- carousel 4 -->
+        <div class="col-6  col-lg-3 col-xl-3 mb-4  ">
+
+          <div id="carousel-4" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner" role="listbox">
+
+              <div class="carousel-item active">
+                <a href="#"><img class="d-block img-fluid" src="img/washinton1.jpg" alt="slide">
+                  <div class="centered">Washinton</div></a>
+                
+              </div>
+
+              <div class="carousel-item">
+                <a href="#">
+                  <img class="d-block img-fluid" src="img/tokyo2.jpg" alt="slide">
+                  <div class="centered">Tokyo</div>
+                </a>
+               
+              </div>
+            
+            </div>
+
+          </div>
+
+        </div>
+      
+
+      </div>
+    </div>
+  </section>
+  <!-- carousel end -->
+  <!-- explore  -->
+  <div class="explore">
+  <div class="container-fluid mb-5 pb-5">
+    <h1 class="text-center heading-inner">Ex<span>plore</span></h1>
+    <div class="row mt-3">
+      <div class="col-6  col-lg-3 col-xl-3 explore-inner content-main mb-4">
+        <a href="#">
+          <div class="content-overlay"></div>
+        <img src="img/explore1.jpg" class="content-image">
+        <div class="content-details fadeIn-bottom">
+          <h3 class="content-title"><i class="fas fa-expand" style="font-size: 52px;"></i></h3>
+          <p class="content-text">ONVACA</p>
+        </div>
+      </a>
+      </div>
+      <div class="col-6  col-lg-3 col-xl-3 explore-inner content-main mb-4">
+        <a href="#">
+          <div class="content-overlay"></div>
+        <img src="img/explore2.jpg" class="content-image">
+        <div class="content-details fadeIn-bottom">
+          <h3 class="content-title"><i class="fas fa-expand" style="font-size: 52px;"></i></h3>
+          <p class="content-text">ONVACA</p>
+        </div>
+      </a>
+      </div>
+      <div class="col-6  col-lg-3 col-xl-3 explore-inner content-main mb-4">
+        <a href="#">
+          <div class="content-overlay"></div>
+        <img src="img/explore3.jpg" class="content-image">
+        <div class="content-details fadeIn-bottom">
+          <h3 class="content-title"><i class="fas fa-expand" style="font-size: 52px;"></i></h3>
+          <p class="content-text">ONVACA</p>
+        </div>
+      </a>
+      </div>
+      <div class="col-6  col-lg-3 col-xl-3 explore-inner content-main mb-4">
+        <a href="#">
+          <div class="content-overlay"></div>
+        <img src="img/explore4.jpg" class="content-image">
+        <div class="content-details fadeIn-bottom">
+          <h3 class="content-title"><i class="fas fa-expand" style="font-size: 52px;"></i></h3>
+          <p class="content-text">ONVACA</p>
+        </div>
+      </a>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- explore -->
+  <!-- hosting -->
+  <div class="hosting mb-5 pb-5">
+    <a href="#" style="text-decoration: none;">
+    <div class="container-fluid hosting-bg text-center">
+      <div class="hosting-heading">
+        <h1>Try Hosting</h1>
+      </div>
+      <div class="hosting-para">
+       <p>It has survived not only five centuries, but also the leap into electronic typesetting</p>
+      </div>
+      <button class="mb-5">Learn more</button>
+
+    </div>
+  </a>
+  </div>
+
+  
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 about-heading">
+          <h6>About</h6>
+          <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+            has been the industry's
+            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+            make a
+            type specimen book.  </p>
+        </div>
+
+        <div class="col-xs-6 col-md-3 about-heading">
+          <h6>Propert Type</h6>
+          <ul class="footer-links">
+            <li><a href="#">Lorem Ipsum</a></li>
+            <li><a href="#">Lorem Ipsum</a></li>
+            <li><a href="#">Lorem Ipsum</a></li>
+            <li><a href="#">Lorem Ipsum</a></li>
+            <li><a href="#">Lorem Ipsum</a></li>
+           
+          </ul>
+        </div>
+
+        <div class="col-xs-6 col-md-3 about-heading">
+          <h6>Heading</h6>
+          <ul class="footer-links">
+            <li><a href="#">Lorem Ipsum</a></li>
+            <li><a href="#">Lorem Ipsum</a></li>
+            <li><a href="#">Lorem Ipsum</a></li>
+            <li><a href="#">Lorem Ipsum</a></li>
+           
+          </ul>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12 about-heading">
+          <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by
+            <a href="#">ONVACA</a>.
+          </p>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="dribbble" href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Optional JavaScript -->
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+  <script type="text/javascript" src="js/daterangepicker.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+  <script type="text/javascript">
+   
+
+ 
+  </script>
+
+</body>
+
+</html>
