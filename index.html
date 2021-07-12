@@ -61,7 +61,8 @@
               </a>
             </div>
             <div class="currency">
-              <a href="#" data-toggle="modal" data-target="#exampleModalLong"><i class="fas fa-money-bill-wave-alt" id="currency"></i></a>
+              <a href="#" data-toggle="modal" data-target="#exampleModalLong"><i class="fas fa-money-bill-wave-alt"
+                  id="currency"></i></a>
             </div>
             <li class="dropdown ">
               <a href="#"><i class="fas fa-bars pr-2" id="bar"></i></a>
@@ -111,10 +112,10 @@
           <a href="#" class="flex-cls " id="focus">
             <div class="px-4  search">
               <div> <label>Search</label>
-               
+
               </div>
               <div>
-                <span  class="search-icon mr-5"><i class="fas fa-search"></i>
+                <span class="search-icon mr-5"><i class="fas fa-search"></i>
                 </span>
               </div>
 
@@ -142,28 +143,96 @@
   </div>
 
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">ONVACA</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">ONVACA</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#tabs-1" role="tab">Language</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" id="c" data-toggle="tab" href="#tabs-2" role="tab">Currency</a>
+            </li>
+
+          </ul><!-- Tab panes -->
+          <div class="tab-content">
+            <div class="tab-pane" id="tabs-1" role="tabpanel">
+              <div class="lang-modal-content">
+                <div class="lang-modal-heading">
+                  <h1>Choose a language</h1>
+                </div>
+                <div class="lang-modal-list">
+                  <div class="row">
+                    <div class="col-md-3 list-lang">
+                      <h3>English</h3>
+                      <p>United States</p>
+                    </div>
+                    <div class="col-md-3 list-lang">
+                      <h3>Azərbaycan dili</h3>
+                      <p> Azərbaycan</p>
+                    </div>
+                    <div class="col-md-3 list-lang">
+                      <h3>Bahasa Indonesia</h3>
+                      <p>Indonesia</p>
+                    </div>
+                    <div class="col-md-3 list-lang">
+                      <h3>Bosanski</h3>
+                      <p>Bosna i Hercegovina</p>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+            <div class="tab-pane active" id="tabs-2" role="tabpanel">
+
+              <div class="lang-modal-content">
+                <div class="lang-modal-heading">
+                  <h1>Choose a currency</h1>
+                </div>
+                <div class="lang-modal-list">
+                  <div class="row">
+                    <div class="col-md-3 list-lang">
+                      <h3>Australian dollar</h3>
+                      <p>AUD - $</p>
+                    </div>
+                    <div class="col-md-3 list-lang">
+                      <h3>Brazilian real</h3>
+                      <p>BRL - R$</p>
+                    </div>
+                    <div class="col-md-3 list-lang">
+                      <h3>Canadian dollar</h3>
+                      <p>CAD - $</p>
+                    </div>
+                    <div class="col-md-3 list-lang">
+                      <h3>Chilean peso</h3>
+                      <p>CLP - $</p>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
       </div>
-      <div class="modal-body">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-          standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-          type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-          Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
-          of Lorem Ipsum.</p>
-      </div>
-      
     </div>
   </div>
-</div>
 
   <!-- carousel start -->
   <section class="popular-places pt-5 mb-5">
@@ -182,18 +251,18 @@
                   <img class="d-block img-fluid" src="img/paris1.jpg" alt="slide">
                   <div class="centered">Paris</div>
                 </a>
-               
+
               </div>
 
               <div class="carousel-item">
                 <a href="#">
-                <img class="d-block img-fluid" src="img/d1.jpg" alt="slide">
-                <div class="centered">Dubai</div>
-              </a>
+                  <img class="d-block img-fluid" src="img/d1.jpg" alt="slide">
+                  <div class="centered">Dubai</div>
+                </a>
               </div>
 
-            
-             
+
+
             </div>
 
           </div>
@@ -209,18 +278,20 @@
 
               <div class="carousel-item active">
                 <a href="#"><img class="d-block img-fluid" src="img/tokyo1.jpg" alt="slide">
-                  <div class="centered">Tokyo</div></a>
-                
-               
+                  <div class="centered">Tokyo</div>
+                </a>
+
+
               </div>
 
               <div class="carousel-item">
                 <a href="#"><img class="d-block img-fluid" src="img/k1.jpg" alt="slide">
-                  <div class="centered">Kuwait</div></a>
-                
+                  <div class="centered">Kuwait</div>
+                </a>
+
               </div>
 
-              
+
 
             </div>
 
@@ -239,16 +310,18 @@
 
               <div class="carousel-item active">
                 <a href="#"><img class="d-block img-fluid" src="img/b1.jpg" alt="slide">
-                  <div class="centered">Beijing</div></a>
-                
+                  <div class="centered">Beijing</div>
+                </a>
+
               </div>
 
               <div class="carousel-item">
                 <a href="#"><img class="d-block img-fluid" src="img/r1.jpg" alt="slide">
-                  <div class="centered">Russia</div></a>
-                
+                  <div class="centered">Russia</div>
+                </a>
+
               </div>
-             
+
 
 
             </div>
@@ -267,8 +340,9 @@
 
               <div class="carousel-item active">
                 <a href="#"><img class="d-block img-fluid" src="img/washinton1.jpg" alt="slide">
-                  <div class="centered">Washinton</div></a>
-                
+                  <div class="centered">Washinton</div>
+                </a>
+
               </div>
 
               <div class="carousel-item">
@@ -276,15 +350,15 @@
                   <img class="d-block img-fluid" src="img/tokyo2.jpg" alt="slide">
                   <div class="centered">Tokyo</div>
                 </a>
-               
+
               </div>
-            
+
             </div>
 
           </div>
 
         </div>
-      
+
 
       </div>
     </div>
@@ -292,70 +366,70 @@
   <!-- carousel end -->
   <!-- explore  -->
   <div class="explore">
-  <div class="container-fluid mb-5 pb-5">
-    <h1 class="text-center heading-inner">Ex<span>plore</span></h1>
-    <div class="row mt-3">
-      <div class="col-6  col-lg-3 col-xl-3 explore-inner content-main mb-4">
-        <a href="#">
-          <div class="content-overlay"></div>
-        <img src="img/explore1.jpg" class="content-image">
-        <div class="content-details fadeIn-bottom">
-          <h3 class="content-title"><i class="fas fa-expand" style="font-size: 52px;"></i></h3>
-          <p class="content-text">ONVACA</p>
+    <div class="container-fluid mb-5 pb-5">
+      <h1 class="text-center heading-inner">Ex<span>plore</span></h1>
+      <div class="row mt-3">
+        <div class="col-6  col-lg-3 col-xl-3 explore-inner content-main mb-4">
+          <a href="#">
+            <div class="content-overlay"></div>
+            <img src="img/explore1.jpg" class="content-image">
+            <div class="content-details fadeIn-bottom">
+              <h3 class="content-title"><i class="fas fa-expand" style="font-size: 52px;"></i></h3>
+              <p class="content-text">ONVACA</p>
+            </div>
+          </a>
         </div>
-      </a>
-      </div>
-      <div class="col-6  col-lg-3 col-xl-3 explore-inner content-main mb-4">
-        <a href="#">
-          <div class="content-overlay"></div>
-        <img src="img/explore2.jpg" class="content-image">
-        <div class="content-details fadeIn-bottom">
-          <h3 class="content-title"><i class="fas fa-expand" style="font-size: 52px;"></i></h3>
-          <p class="content-text">ONVACA</p>
+        <div class="col-6  col-lg-3 col-xl-3 explore-inner content-main mb-4">
+          <a href="#">
+            <div class="content-overlay"></div>
+            <img src="img/explore2.jpg" class="content-image">
+            <div class="content-details fadeIn-bottom">
+              <h3 class="content-title"><i class="fas fa-expand" style="font-size: 52px;"></i></h3>
+              <p class="content-text">ONVACA</p>
+            </div>
+          </a>
         </div>
-      </a>
-      </div>
-      <div class="col-6  col-lg-3 col-xl-3 explore-inner content-main mb-4">
-        <a href="#">
-          <div class="content-overlay"></div>
-        <img src="img/explore3.jpg" class="content-image">
-        <div class="content-details fadeIn-bottom">
-          <h3 class="content-title"><i class="fas fa-expand" style="font-size: 52px;"></i></h3>
-          <p class="content-text">ONVACA</p>
+        <div class="col-6  col-lg-3 col-xl-3 explore-inner content-main mb-4">
+          <a href="#">
+            <div class="content-overlay"></div>
+            <img src="img/explore3.jpg" class="content-image">
+            <div class="content-details fadeIn-bottom">
+              <h3 class="content-title"><i class="fas fa-expand" style="font-size: 52px;"></i></h3>
+              <p class="content-text">ONVACA</p>
+            </div>
+          </a>
         </div>
-      </a>
-      </div>
-      <div class="col-6  col-lg-3 col-xl-3 explore-inner content-main mb-4">
-        <a href="#">
-          <div class="content-overlay"></div>
-        <img src="img/explore4.jpg" class="content-image">
-        <div class="content-details fadeIn-bottom">
-          <h3 class="content-title"><i class="fas fa-expand" style="font-size: 52px;"></i></h3>
-          <p class="content-text">ONVACA</p>
+        <div class="col-6  col-lg-3 col-xl-3 explore-inner content-main mb-4">
+          <a href="#">
+            <div class="content-overlay"></div>
+            <img src="img/explore4.jpg" class="content-image">
+            <div class="content-details fadeIn-bottom">
+              <h3 class="content-title"><i class="fas fa-expand" style="font-size: 52px;"></i></h3>
+              <p class="content-text">ONVACA</p>
+            </div>
+          </a>
         </div>
-      </a>
       </div>
     </div>
   </div>
-</div>
   <!-- explore -->
   <!-- hosting -->
   <div class="hosting mb-5 pb-5">
     <a href="#" style="text-decoration: none;">
-    <div class="container-fluid hosting-bg text-center">
-      <div class="hosting-heading">
-        <h1>Try Hosting</h1>
-      </div>
-      <div class="hosting-para">
-       <p>It has survived not only five centuries, but also the leap into electronic typesetting</p>
-      </div>
-      <button class="mb-5">Learn more</button>
+      <div class="container-fluid hosting-bg text-center">
+        <div class="hosting-heading">
+          <h1>Try Hosting</h1>
+        </div>
+        <div class="hosting-para">
+          <p>It has survived not only five centuries, but also the leap into electronic typesetting</p>
+        </div>
+        <button class="mb-5">Learn more</button>
 
-    </div>
-  </a>
+      </div>
+    </a>
   </div>
 
-  
+
   <footer class="site-footer">
     <div class="container">
       <div class="row">
@@ -365,7 +439,7 @@
             has been the industry's
             standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
             make a
-            type specimen book.  </p>
+            type specimen book. </p>
         </div>
 
         <div class="col-xs-6 col-md-3 about-heading">
@@ -376,7 +450,7 @@
             <li><a href="#">Lorem Ipsum</a></li>
             <li><a href="#">Lorem Ipsum</a></li>
             <li><a href="#">Lorem Ipsum</a></li>
-           
+
           </ul>
         </div>
 
@@ -387,7 +461,7 @@
             <li><a href="#">Lorem Ipsum</a></li>
             <li><a href="#">Lorem Ipsum</a></li>
             <li><a href="#">Lorem Ipsum</a></li>
-           
+
           </ul>
         </div>
       </div>
@@ -432,9 +506,8 @@
   <script type="text/javascript" src="js/main.js"></script>
 
   <script type="text/javascript">
-   
 
- 
+
   </script>
 
 </body>

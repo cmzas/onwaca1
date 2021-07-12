@@ -122,33 +122,4 @@
         wrap: true,
         keyboard: true
       });
-      $('#carousel-5').carousel({
-        interval: 6000,
-        wrap: true,
-        keyboard: true
-      });
-      $('#carousel-6').carousel({
-        interval: 8000,
-        wrap: true,
-        keyboard: true
-      });
-      $('#carousel-7').carousel({
-        interval: 10000,
-        wrap: true,
-        keyboard: true
-      });
-      $('#carousel-8').carousel({
-        interval: 6000,
-        wrap: true,
-        keyboard: true
-      });
-      $('#carousel-9').carousel({
-        interval: 4000,
-        wrap: true,
-        keyboard: true
-      });
-      $('#carousel-10').carousel({
-        interval: 8000,
-        wrap: true,
-        keyboard: true
-      });
+   
