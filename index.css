@@ -669,8 +669,13 @@ font-weight: bold;
 
 .content-main:hover .content-image{
   
-  opacity: 0;
+  opacity: 0.5;
   
+}
+.content-main:hover{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  border-radius: 30px;
 }
 .content-main .content-overlay {
   background:orange !important;
@@ -771,4 +776,38 @@ color: white;
   border-radius: 10px;
   background-color: white;
  
+}
+/* hosting end */
+/* modal */
+.modal .modal-dialog{
+  width: 50% !important;
+}
+.list-lang h3{
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: normal;
+}
+.list-lang p{
+  font-size: 14px;
+  line-height: normal;
+}
+.lang-modal-heading h1{
+  font-size: 20px;
+  padding: 20px 0px;
+  border-bottom: 1px solid orange;
+}
+.lang-modal-list{
+  padding: 10px 0px;
+}
+.list-lang{
+  cursor: pointer;
+
+}
+.list-lang:hover{
+  border-radius: 30px;
+  background-color: orange;
+  color: white;
+  text-align: center;
+  padding-top: 8px;
 }
